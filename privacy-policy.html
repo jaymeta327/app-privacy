@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic CMS - 개인정보 처리방침 | Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        .lang-switch {
+            margin-top: 20px;
+        }
+
+        .lang-switch button {
+            padding: 8px 20px;
+            margin: 0 5px;
+            border: 2px solid #2563eb;
+            background: white;
+            color: #2563eb;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .lang-switch button.active,
+        .lang-switch button:hover {
+            background: #2563eb;
+            color: white;
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #1f2937;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #374151;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: #4b5563;
+        }
+
+        ul {
+            margin: 10px 0 15px 20px;
+            color: #4b5563;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: #eff6ff;
+            border-left: 4px solid #2563eb;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: #1e40af;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #e5e7eb;
+        }
+
+        th {
+            background: #f3f4f6;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        td {
+            color: #4b5563;
+        }
+
+        .contact-info {
+            background: #f9fafb;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e9ecef;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            .header h1 {
+                font-size: 22px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Magic CMS</div>
+            <h1 id="page-title">개인정보 처리방침</h1>
+            <p class="last-updated" id="last-updated">최종 수정일: 2026년 2월 7일</p>
+            <div class="lang-switch">
+                <button id="btn-ko" class="active" onclick="switchLang('ko')">한국어</button>
+                <button id="btn-en" onclick="switchLang('en')">English</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- 한국어 버전 -->
+            <div id="content-ko">
+                <div class="section">
+                    <h2>1. 개요</h2>
+                    <p>Magic CMS(이하 "앱")는 디지털 사이니지 콘텐츠 관리 솔루션입니다. 본 개인정보 처리방침은 앱이 수집하는 정보와 그 사용 방법에 대해 설명합니다.</p>
+                    <div class="highlight-box">
+                        <p><strong>중요:</strong> Magic CMS는 사용자의 개인정보를 외부 서버로 전송하지 않습니다. 모든 데이터는 사용자의 기기에만 로컬 저장됩니다.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>2. 수집하는 정보</h2>
+                    <p>앱은 서비스 제공을 위해 다음 정보를 수집합니다:</p>
+
+                    <h3>2.1 기기 정보</h3>
+                    <table>
+                        <tr>
+                            <th>수집 항목</th>
+                            <th>수집 목적</th>
+                            <th>저장 위치</th>
+                        </tr>
+                        <tr>
+                            <td>로컬 네트워크 기기 IP 주소</td>
+                            <td>디지털 사이니지 기기 통신</td>
+                            <td>로컬 기기</td>
+                        </tr>
+                        <tr>
+                            <td>기기 이름 및 모델</td>
+                            <td>기기 식별 및 관리</td>
+                            <td>로컬 기기</td>
+                        </tr>
+                        <tr>
+                            <td>네트워크 상태 정보</td>
+                            <td>연결 상태 확인</td>
+                            <td>임시 메모리</td>
+                        </tr>
+                    </table>
+
+                    <h3>2.2 미디어 파일</h3>
+                    <ul>
+                        <li>사용자가 선택한 이미지 및 동영상 파일</li>
+                        <li>프로그램 구성을 위한 콘텐츠 정보</li>
+                    </ul>
+
+                    <h3>2.3 카메라 접근</h3>
+                    <ul>
+                        <li>QR 코드 스캔을 통한 기기 등록 시에만 사용</li>
+                        <li>카메라로 촬영된 이미지는 저장되지 않음</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>3. 정보 사용 목적</h2>
+                    <p>수집된 정보는 다음 목적으로만 사용됩니다:</p>
+                    <ul>
+                        <li><strong>기기 통신:</strong> 로컬 네트워크 내 디지털 사이니지 기기와의 통신</li>
+                        <li><strong>콘텐츠 전송:</strong> 프로그램 및 미디어 파일을 기기로 배포</li>
+                        <li><strong>기기 관리:</strong> 연결된 기기의 상태 모니터링 및 관리</li>
+                        <li><strong>프로그램 저장:</strong> 사용자가 생성한 프로그램 정보 보관</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>4. 데이터 저장 및 보안</h2>
+                    <h3>4.1 로컬 저장</h3>
+                    <p>모든 데이터는 사용자의 모바일 기기 내 SQLite 데이터베이스에 로컬 저장됩니다. 외부 클라우드 서버나 제3자 서버로 데이터가 전송되지 않습니다.</p>
+
+                    <h3>4.2 네트워크 통신</h3>
+                    <p>앱은 로컬 네트워크(WiFi/이더넷)에서 HTTP/WebSocket 서버로 동작하여 동일 네트워크 내 기기와만 통신합니다. 인터넷을 통한 외부 통신은 수행하지 않습니다.</p>
+
+                    <h3>4.3 데이터 삭제</h3>
+                    <p>앱을 삭제하면 저장된 모든 데이터가 함께 삭제됩니다.</p>
+                </div>
+
+                <div class="section">
+                    <h2>5. 앱 권한</h2>
+                    <p>앱은 서비스 제공을 위해 다음 권한을 요청합니다:</p>
+                    <table>
+                        <tr>
+                            <th>권한</th>
+                            <th>사용 목적</th>
+                        </tr>
+                        <tr>
+                            <td>카메라</td>
+                            <td>QR 코드 스캔을 통한 기기 등록</td>
+                        </tr>
+                        <tr>
+                            <td>사진 라이브러리</td>
+                            <td>프로그램 제작을 위한 이미지/동영상 선택</td>
+                        </tr>
+                        <tr>
+                            <td>마이크</td>
+                            <td>동영상 녹화 시 오디오 캡처</td>
+                        </tr>
+                        <tr>
+                            <td>로컬 네트워크</td>
+                            <td>디지털 사이니지 기기와의 통신</td>
+                        </tr>
+                        <tr>
+                            <td>WiFi 상태</td>
+                            <td>네트워크 연결 상태 확인</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="section">
+                    <h2>6. 제3자 제공</h2>
+                    <p>Magic CMS는 수집된 정보를 제3자에게 판매, 거래, 임대하지 않습니다. 모든 데이터는 사용자의 기기 내에서만 처리됩니다.</p>
+                </div>
+
+                <div class="section">
+                    <h2>7. 아동 개인정보</h2>
+                    <p>본 앱은 13세 미만 아동을 대상으로 하지 않으며, 의도적으로 13세 미만 아동의 개인정보를 수집하지 않습니다.</p>
+                </div>
+
+                <div class="section">
+                    <h2>8. 개인정보 처리방침 변경</h2>
+                    <p>본 개인정보 처리방침은 법률 또는 서비스 변경에 따라 수정될 수 있습니다. 중요한 변경 사항이 있을 경우 앱 내 공지를 통해 알려드립니다.</p>
+                </div>
+
+                <div class="section">
+                    <h2>9. 문의처</h2>
+                    <p>개인정보 처리방침에 관한 질문이나 요청이 있으시면 아래로 연락해 주세요:</p>
+                    <div class="contact-info">
+                        <p><strong>서비스명:</strong> Magic CMS</p>
+                        <p><strong>이메일:</strong> metastudio@naver.com</p>
+                        <p><strong>웹사이트:</strong> http://www.magictools.co.kr</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- English Version -->
+            <div id="content-en" style="display: none;">
+                <div class="section">
+                    <h2>1. Overview</h2>
+                    <p>Magic CMS (the "App") is a digital signage content management solution. This Privacy Policy explains what information the App collects and how it is used.</p>
+                    <div class="highlight-box">
+                        <p><strong>Important:</strong> Magic CMS does not transmit your personal information to external servers. All data is stored locally on your device only.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>2. Information We Collect</h2>
+                    <p>The App collects the following information to provide its services:</p>
+
+                    <h3>2.1 Device Information</h3>
+                    <table>
+                        <tr>
+                            <th>Data Collected</th>
+                            <th>Purpose</th>
+                            <th>Storage Location</th>
+                        </tr>
+                        <tr>
+                            <td>Local network device IP addresses</td>
+                            <td>Digital signage device communication</td>
+                            <td>Local device</td>
+                        </tr>
+                        <tr>
+                            <td>Device name and model</td>
+                            <td>Device identification and management</td>
+                            <td>Local device</td>
+                        </tr>
+                        <tr>
+                            <td>Network status information</td>
+                            <td>Connection status verification</td>
+                            <td>Temporary memory</td>
+                        </tr>
+                    </table>
+
+                    <h3>2.2 Media Files</h3>
+                    <ul>
+                        <li>Images and video files selected by the user</li>
+                        <li>Content information for program configuration</li>
+                    </ul>
+
+                    <h3>2.3 Camera Access</h3>
+                    <ul>
+                        <li>Used only for device registration via QR code scanning</li>
+                        <li>Images captured by the camera are not stored</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>3. How We Use Information</h2>
+                    <p>Collected information is used only for the following purposes:</p>
+                    <ul>
+                        <li><strong>Device Communication:</strong> Communication with digital signage devices within the local network</li>
+                        <li><strong>Content Delivery:</strong> Deploying programs and media files to devices</li>
+                        <li><strong>Device Management:</strong> Monitoring and managing connected device status</li>
+                        <li><strong>Program Storage:</strong> Storing program information created by users</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>4. Data Storage and Security</h2>
+                    <h3>4.1 Local Storage</h3>
+                    <p>All data is stored locally in an SQLite database on the user's mobile device. No data is transmitted to external cloud servers or third-party servers.</p>
+
+                    <h3>4.2 Network Communication</h3>
+                    <p>The App operates as an HTTP/WebSocket server on the local network (WiFi/Ethernet) and communicates only with devices on the same network. No external communication over the internet is performed.</p>
+
+                    <h3>4.3 Data Deletion</h3>
+                    <p>Uninstalling the App will delete all stored data.</p>
+                </div>
+
+                <div class="section">
+                    <h2>5. App Permissions</h2>
+                    <p>The App requests the following permissions to provide its services:</p>
+                    <table>
+                        <tr>
+                            <th>Permission</th>
+                            <th>Purpose</th>
+                        </tr>
+                        <tr>
+                            <td>Camera</td>
+                            <td>Device registration via QR code scanning</td>
+                        </tr>
+                        <tr>
+                            <td>Photo Library</td>
+                            <td>Selecting images/videos for program creation</td>
+                        </tr>
+                        <tr>
+                            <td>Microphone</td>
+                            <td>Audio capture during video recording</td>
+                        </tr>
+                        <tr>
+                            <td>Local Network</td>
+                            <td>Communication with digital signage devices</td>
+                        </tr>
+                        <tr>
+                            <td>WiFi State</td>
+                            <td>Network connection status check</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="section">
+                    <h2>6. Third-Party Sharing</h2>
+                    <p>Magic CMS does not sell, trade, or rent collected information to third parties. All data is processed only within the user's device.</p>
+                </div>
+
+                <div class="section">
+                    <h2>7. Children's Privacy</h2>
+                    <p>This App is not directed at children under 13 years of age, and we do not knowingly collect personal information from children under 13.</p>
+                </div>
+
+                <div class="section">
+                    <h2>8. Changes to Privacy Policy</h2>
+                    <p>This Privacy Policy may be modified in accordance with legal or service changes. We will notify you of significant changes through in-app announcements.</p>
+                </div>
+
+                <div class="section">
+                    <h2>9. Contact Us</h2>
+                    <p>If you have any questions or requests regarding this Privacy Policy, please contact us:</p>
+                    <div class="contact-info">
+                        <p><strong>Service Name:</strong> Magic CMS</p>
+                        <p><strong>Email:</strong> metastudio@naver.com</p>
+                        <p><strong>Website:</strong> http://www.megictools.co.kr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Magic CMS. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            const contentKo = document.getElementById('content-ko');
+            const contentEn = document.getElementById('content-en');
+            const btnKo = document.getElementById('btn-ko');
+            const btnEn = document.getElementById('btn-en');
+            const pageTitle = document.getElementById('page-title');
+            const lastUpdated = document.getElementById('last-updated');
+
+            if (lang === 'ko') {
+                contentKo.style.display = 'block';
+                contentEn.style.display = 'none';
+                btnKo.classList.add('active');
+                btnEn.classList.remove('active');
+                pageTitle.textContent = '개인정보 처리방침';
+                lastUpdated.textContent = '최종 수정일: 2026년 1월 17일';
+            } else {
+                contentKo.style.display = 'none';
+                contentEn.style.display = 'block';
+                btnKo.classList.remove('active');
+                btnEn.classList.add('active');
+                pageTitle.textContent = 'Privacy Policy';
+                lastUpdated.textContent = 'Last Updated: January 17, 2026';
+            }
+        }
+
+        // URL 파라미터로 언어 설정 가능 (?lang=en)
+        const urlParams = new URLSearchParams(window.location.search);
+        const langParam = urlParams.get('lang');
+        if (langParam === 'en') {
+            switchLang('en');
+        }
+    </script>
+</body>
+</html>
